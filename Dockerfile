@@ -7,6 +7,6 @@ COPY . .
 RUN npx prisma generate
 RUN npx prisma db push
 RUN yarn build
-EXPOSE 3001
+EXPOSE 4200
 CMD ["yarn", "start:prod"]
 
